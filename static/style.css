@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+@import url('https://fonts.googleapis.com/css?family=Metal Mania');
+@import url('https://fonts.googleapis.com/css?family=Ewert');
+*{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 30px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: rgb(0, 0, 0);
+    
+    padding: 10px 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 10px;
+    
+}
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 5px 20px 5px 10px;
+    color: white;
+
+
+}
+#navbar li a:hover{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 7px;
+
+}
+
+#introSection{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    flex-direction: column;
+    font-family: fantasy;
+    height: 420px;
+    background-color: red;
+    background: url('static/dance.jpg') no-repeat center center / cover;
+
+}
+#introSection div.small{
+    font-size: 23px;
+    font-weight: bolder;
+    color: rgb(147, 223, 223);
+}
+#introSection div{
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-family: 'Metal Mania';
+}
+
+
+#sponsorsSection{
+    height: 300px;
+    background-color: rgb(218, 100, 110);
+
+}
+#missionSection{
+    height: 300px;
+    margin: auto;
+    display: block;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+}
+#missionSection h2{
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Metal Mania';
+}
+.card{
+    border: 3px solid black;
+    border-radius: 8px;
+    margin: 20px 45px;
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    align-items: center;
+}
+.card h3{
+    text-align: center;
+    margin-top: 10px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img img{
+    height: 145px;
+    
+}
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Metal Mania';
+}
+#sponsors{
+    height: 110px;
+    margin: auto;
+    max-width: 1000px;
+    
+}
+.spimage{
+    height: 100px;
+    margin: 20px 34px;
+    padding: 40px;
+}
+#footer{
+    height: 30px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}

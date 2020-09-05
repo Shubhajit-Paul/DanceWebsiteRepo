@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+@import url('https://fonts.googleapis.com/css?family=Metal Mania');
+@import url('https://fonts.googleapis.com/css?family=Ewert');
+h1{
+    text-align: center;
+    margin: 2px 0px;
+    font-family: 'Metal Mania' ;
+}
+.myForm{
+    
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+.myInput{
+    font-family: 'Metal Mania' ;
+    width: 400px;
+    text-align: center;
+    padding: 7px;
+    margin: 7px;
+    font-size: 15px;
+    border: 2px solid rgb(95, 91, 91);
+    border-radius: 10px;
+    outline: none;
+}
+.btn{
+    padding: 7px 10px;
+    background-color: rgb(99, 95, 95);
+    color: white;
+    border: 2px solid black;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.btn:hover{
+    
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.container{
+    background-color: rgb(224, 114, 95);
+    margin-top: 0;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

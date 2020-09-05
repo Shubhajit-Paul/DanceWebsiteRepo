@@ -1,0 +1,44 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+        include ../static/style.css
+
+block content
+    
+    section#introSection 
+        div Welcome to Lucifer Dance Academy
+        div.small Eat Sleep Dance Repeat
+    section#missionSection 
+        h2 Our Mission   
+        div.card
+            h3 Dance Perfection 
+            div.card-box
+                div.card-img
+                    img(src="/static/ddd.png", alt="")
+                div.card-content
+                    p Dance with expresion not to impression    
+        div.card
+            h3 Dance The Way You Like 
+            div.card-box
+                div.card-img
+                    img(src="/static/ddd.png", alt="")
+                div.card-content
+                    p This is the best dance academy   
+        div.card
+            h3 Dance Teaching 
+            div.card-box
+                div.card-img
+                    img(src="/static/ddd.png", alt="")
+                div.card-content
+                    p Here we hired best experienced Teachers   
+    section#sponsorsSection 
+        h2 Social Media
+        div#sponsors
+                img(src="/static/face.jpg", alt="ERROR", class='spimage')
+                img(src="/static/twitter.jpg", alt="ERROR", class='spimage')
+                img(src="/static/insta.jpg", alt="ERROR", class='spimage')
+                img(src="/static/youtube.jpg", alt="ERROR", class='spimage')
